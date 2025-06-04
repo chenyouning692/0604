@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "p5": ["node_modules/p5/lib/p5.min.js"],
+      "@tensorflow/*": ["node_modules/@tensorflow/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

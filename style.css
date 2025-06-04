@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #222;
+  color: #eee;
+  text-align: center;
+  user-select: none;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#game-container {
+  margin: 10px auto;
+  width: 640px;
+  position: relative;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  background: #000;
+}
